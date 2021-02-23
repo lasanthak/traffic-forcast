@@ -13,7 +13,7 @@ Machine Learning Project for Traffic Prediction.
 - To analyze the data run R script [analysis.R](src/analysis.R).
 
 ## Details
-This is a linear regression model, treating the data as a time series. In this model, we are taking into consideration that the seasonality and trending of the data. The predicted rps value is the total traffic expected. The source [data set](src/sample-data.csv) is simulated data for the weekly peak traffic.
+This is a linear regression model using sample traffic data as a time series dataset. Seasonality of the data is modeled using the [Fourier series](https://en.wikipedia.org/wiki/Fourier_series). And the trending of the data is calculated using a smooth spline. The predicted value is the total traffic expected. The source [data set](src/sample-data.csv) is simulated data for the weekly peak traffic.
 - This approach supports multivariate (multiple variables) models compared to FaceBook's [Prophet](https://facebook.github.io/prophet/) which supports univariate (single variable) models.
 - We have excluded Covid shutdown period (Mar/Apr/May in 2020).
 - We are using 80-20 split for training and testing.
