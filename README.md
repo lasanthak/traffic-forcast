@@ -29,3 +29,6 @@ year month week value   w         t    trend predicted
 2019     1    3 32670  25  3.020762 34288.30  33726.69
 2019     2    1 36464  27  3.262423 34644.02  36061.64
 ```
+
+## Disclaimer
+All the datasets you see in this github repository are using simulated data. These datasets are used for education purposes only.
