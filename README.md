@@ -1,6 +1,9 @@
 # Traffic Forcasting
 Machine Learning Project for Traffic Prediction.
 
+## Public blog post
+[Predict It! An Engineer’s Journey into Data Science](https://medium.com/expedia-group-tech/predict-it-an-engineers-journey-into-data-science-62f660f51877)
+
 ## How to run
 - Install [R](https://www.r-project.org/) (I used homebrew for that).
   ```
